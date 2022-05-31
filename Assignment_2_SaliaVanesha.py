@@ -12,7 +12,7 @@ def tambahKontak(nama, noTelp):
     }
     return kontak
 
-list_daftarKontak.append(kontak)
+list_daftarKontak.append(tambahKontak())
 
 belum menggunakan validasi, apakah no telp panjangnya sesuai
 tidak bisa menginputkan +62xxxx sebagai no telp, terlalu banyak asumsi salah kemungkinan spasi dan huruf
